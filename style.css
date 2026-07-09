@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#0f1117;
+    color:#fff;
+}
+
+header{
+    background:#1a1d26;
+    padding:20px;
+    text-align:center;
+}
+
+header a{
+    color:#4CAF50;
+    text-decoration:none;
+}
+
+.store{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+    padding:40px;
+}
+
+.card{
+    width:280px;
+    background:#1b1f29;
+    border-radius:15px;
+    padding:25px;
+    text-align:center;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h3{
+    color:#4CAF50;
+}
+
+button{
+    background:#4CAF50;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#45a049;
+}
